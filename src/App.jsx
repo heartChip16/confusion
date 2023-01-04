@@ -1,9 +1,9 @@
 import { useState } from 'react'
 import { Navbar, NavbarBrand } from 'reactstrap'
+import Menu from './components/Menu'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <div className="App">
@@ -14,6 +14,7 @@ function App() {
           </NavbarBrand>
         </div>
       </Navbar>
+      <Menu />
     </div>
   )
 }
